@@ -17,10 +17,9 @@ agent 실행기 → while loop
 
 - llm이 답변을 정의했다고 판단할 때 멈추거나, 기본적으로 이터레이션 횟수나 보내려는 메시지 수를 제한하려고 할 때 멈춤.
 - while loop → LLM 호출 → 응답 해석 → 사용할 도구 선택 및 실행 → 실행 반복
+
 ![image](https://github.com/LLM-LangChain-Study-with-Udemy/LLM-LangChain-Study/assets/142489787/bd733cf8-e090-4c82-ac18-eea09feff528)
 
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/446adae8-73cb-4cf1-90fd-e0e0660545f7/f656f11e-06fc-4c3d-acae-c9985844f4e4/Untitled.png)
 
 - parse : 텍스트 구문 분석
 - LLM이 선택한 도구로부터 응답을 반환하기에 충분한 정보가 있으면 Answer 반환, 없다면 Agent로 다시 돌아감.
